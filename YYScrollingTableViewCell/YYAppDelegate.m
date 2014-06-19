@@ -16,6 +16,10 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    _mainGUIController = [[iCoreGUIController alloc] initWithWindow:_window];
+    [_mainGUIController startUp];
+    
     return YES;
 }
 
@@ -46,4 +50,12 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+#pragma mark - Static function
++(YYAppDelegate*)shareAppDelegate {
+    return (YYAppDelegate*)[UIApplication sharedApplication].delegate;
+}
+
++(iCoreGUIController *)shareMainGUI {
+    return [YYAppDelegate shareAppDelegate].mainGUIController;
+}
 @end

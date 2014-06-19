@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "iCoreGUIController.h"
 
 @interface YYAppDelegate : UIResponder <UIApplicationDelegate>
 
+@property (nonatomic, strong) iCoreGUIController *mainGUIController;
+
 @property (strong, nonatomic) UIWindow *window;
+
++(YYAppDelegate*)shareAppDelegate;
++(iCoreGUIController*)shareMainGUI;
 
 @end

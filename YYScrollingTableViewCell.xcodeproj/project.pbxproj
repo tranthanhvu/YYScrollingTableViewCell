@@ -19,6 +19,11 @@
 		BE4FAB4C19529F5C00FF72C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4FAB3419529F5C00FF72C0 /* UIKit.framework */; };
 		BE4FAB5419529F5C00FF72C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE4FAB5219529F5C00FF72C0 /* InfoPlist.strings */; };
 		BE4FAB5619529F5C00FF72C0 /* YYScrollingTableViewCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4FAB5519529F5C00FF72C0 /* YYScrollingTableViewCellTests.m */; };
+		BE4FAB711952A34000FF72C0 /* iCoreGUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4FAB6B1952A34000FF72C0 /* iCoreGUIController.m */; };
+		BE4FAB731952A35800FF72C0 /* MainStoryboard-iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4FAB721952A35800FF72C0 /* MainStoryboard-iPhone.storyboard */; };
+		BE4FAB761952A44000FF72C0 /* YYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4FAB751952A44000FF72C0 /* YYViewController.m */; };
+		BE4FAB791952A50000FF72C0 /* YYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4FAB781952A50000FF72C0 /* YYTabBarController.m */; };
+		BE4FAB7C1952A55400FF72C0 /* YYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4FAB7B1952A55400FF72C0 /* YYNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,15 @@
 		BE4FAB5119529F5C00FF72C0 /* YYScrollingTableViewCellTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YYScrollingTableViewCellTests-Info.plist"; sourceTree = "<group>"; };
 		BE4FAB5319529F5C00FF72C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE4FAB5519529F5C00FF72C0 /* YYScrollingTableViewCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYScrollingTableViewCellTests.m; sourceTree = "<group>"; };
+		BE4FAB6A1952A34000FF72C0 /* iCoreGUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCoreGUIController.h; sourceTree = "<group>"; };
+		BE4FAB6B1952A34000FF72C0 /* iCoreGUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCoreGUIController.m; sourceTree = "<group>"; };
+		BE4FAB721952A35800FF72C0 /* MainStoryboard-iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "MainStoryboard-iPhone.storyboard"; sourceTree = "<group>"; };
+		BE4FAB741952A44000FF72C0 /* YYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYViewController.h; sourceTree = "<group>"; };
+		BE4FAB751952A44000FF72C0 /* YYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYViewController.m; sourceTree = "<group>"; };
+		BE4FAB771952A50000FF72C0 /* YYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTabBarController.h; sourceTree = "<group>"; };
+		BE4FAB781952A50000FF72C0 /* YYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTabBarController.m; sourceTree = "<group>"; };
+		BE4FAB7A1952A55400FF72C0 /* YYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYNavigationController.h; sourceTree = "<group>"; };
+		BE4FAB7B1952A55400FF72C0 /* YYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +121,12 @@
 		BE4FAB3619529F5C00FF72C0 /* YYScrollingTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				BE4FAB5F1952A34000FF72C0 /* Class */,
 				BE4FAB3F19529F5C00FF72C0 /* YYAppDelegate.h */,
 				BE4FAB4019529F5C00FF72C0 /* YYAppDelegate.m */,
 				BE4FAB4219529F5C00FF72C0 /* Images.xcassets */,
 				BE4FAB3719529F5C00FF72C0 /* Supporting Files */,
+				BE4FAB721952A35800FF72C0 /* MainStoryboard-iPhone.storyboard */,
 			);
 			path = YYScrollingTableViewCell;
 			sourceTree = "<group>";
@@ -142,6 +158,45 @@
 				BE4FAB5219529F5C00FF72C0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE4FAB5F1952A34000FF72C0 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				BE4FAB601952A34000FF72C0 /* Controller */,
+				BE4FAB6C1952A34000FF72C0 /* View */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		BE4FAB601952A34000FF72C0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE4FAB611952A34000FF72C0 /* Base */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE4FAB611952A34000FF72C0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BE4FAB6A1952A34000FF72C0 /* iCoreGUIController.h */,
+				BE4FAB6B1952A34000FF72C0 /* iCoreGUIController.m */,
+				BE4FAB741952A44000FF72C0 /* YYViewController.h */,
+				BE4FAB751952A44000FF72C0 /* YYViewController.m */,
+				BE4FAB771952A50000FF72C0 /* YYTabBarController.h */,
+				BE4FAB781952A50000FF72C0 /* YYTabBarController.m */,
+				BE4FAB7A1952A55400FF72C0 /* YYNavigationController.h */,
+				BE4FAB7B1952A55400FF72C0 /* YYNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BE4FAB6C1952A34000FF72C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE4FAB3B19529F5C00FF72C0 /* InfoPlist.strings in Resources */,
+				BE4FAB731952A35800FF72C0 /* MainStoryboard-iPhone.storyboard in Resources */,
 				BE4FAB4319529F5C00FF72C0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,8 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE4FAB791952A50000FF72C0 /* YYTabBarController.m in Sources */,
+				BE4FAB7C1952A55400FF72C0 /* YYNavigationController.m in Sources */,
 				BE4FAB4119529F5C00FF72C0 /* YYAppDelegate.m in Sources */,
 				BE4FAB3D19529F5C00FF72C0 /* main.m in Sources */,
+				BE4FAB711952A34000FF72C0 /* iCoreGUIController.m in Sources */,
+				BE4FAB761952A44000FF72C0 /* YYViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
