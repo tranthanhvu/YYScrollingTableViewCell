@@ -23,6 +23,7 @@ UITableView (vertical scrolling)
 - If you **found a bug**, open an issue.
 - If you **have a feature request**, open an issue.
 - If you **want to contribute**, submit a pull request.
+**Anyway, This's just a simple example**
 
 # License
 
