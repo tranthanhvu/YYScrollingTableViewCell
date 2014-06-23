@@ -5,10 +5,18 @@ This's a simple example of horizontal scroll on a table view cell. It's using a 
 
 # Structure
 
-
+<pre>
 UITableView (vertical scrolling)
-  |-- UITableViewCell (normal)
-  |-- UITableViewCell (horizontal scrolling)
+    |-- UITableViewCell (normal cell)
+    |   |-- a custom view (xib)
+    |
+    |-- YYScrollingTableViewCell
+    |   |-- UICollectionView
+    |   |   |-- UICollectionViewCell
+    |   |       |-- a custom view (xib)
+    |   |
+    |   |-- UIScrollView (paging scroll view)
+</pre>
 
 # Communication
 
