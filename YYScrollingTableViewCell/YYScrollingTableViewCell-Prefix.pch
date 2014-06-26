@@ -13,4 +13,7 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+
+#define COLOR_BACKGROUND_INFO [UIColor colorWithRed:224.f/255.f green:224.f/255.f blue:224.f/255.f alpha:1.f]
+
 #endif
