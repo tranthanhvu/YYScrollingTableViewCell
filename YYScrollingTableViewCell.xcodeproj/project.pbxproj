@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE478FC2195BC72A0087E580 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE478FC1195BC72A0087E580 /* ScheduleViewController.m */; };
+		BE478FDE195BCBBE0087E580 /* SessionCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE478FD6195BCBBE0087E580 /* SessionCVCell.m */; };
+		BE478FDF195BCBBE0087E580 /* SessionTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE478FD8195BCBBE0087E580 /* SessionTVCell.m */; };
+		BE478FE0195BCBBE0087E580 /* SessionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE478FDA195BCBBE0087E580 /* SessionView.m */; };
+		BE478FE1195BCBBE0087E580 /* SessionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE478FDB195BCBBE0087E580 /* SessionView.xib */; };
+		BE478FE2195BCBBE0087E580 /* TrackHeaderCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE478FDD195BCBBE0087E580 /* TrackHeaderCVCell.m */; };
+		BE478FE5195BCC3B0087E580 /* ScrollingSessionTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE478FE4195BCC3B0087E580 /* ScrollingSessionTVCell.m */; };
+		BE478FE9195BCD430087E580 /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = BE478FE8195BCD430087E580 /* Session.m */; };
+		BE478FED195C04860087E580 /* NSArray+ArrayOfArray.m in Sources */ = {isa = PBXBuildFile; fileRef = BE478FEC195C04860087E580 /* NSArray+ArrayOfArray.m */; };
 		BE4FAB3119529F5C00FF72C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4FAB3019529F5C00FF72C0 /* Foundation.framework */; };
 		BE4FAB3319529F5C00FF72C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4FAB3219529F5C00FF72C0 /* CoreGraphics.framework */; };
 		BE4FAB3519529F5C00FF72C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4FAB3419529F5C00FF72C0 /* UIKit.framework */; };
@@ -37,6 +46,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE478FC0195BC72A0087E580 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		BE478FC1195BC72A0087E580 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		BE478FD5195BCBBE0087E580 /* SessionCVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionCVCell.h; sourceTree = "<group>"; };
+		BE478FD6195BCBBE0087E580 /* SessionCVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionCVCell.m; sourceTree = "<group>"; };
+		BE478FD7195BCBBE0087E580 /* SessionTVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionTVCell.h; sourceTree = "<group>"; };
+		BE478FD8195BCBBE0087E580 /* SessionTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionTVCell.m; sourceTree = "<group>"; };
+		BE478FD9195BCBBE0087E580 /* SessionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionView.h; sourceTree = "<group>"; };
+		BE478FDA195BCBBE0087E580 /* SessionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionView.m; sourceTree = "<group>"; };
+		BE478FDB195BCBBE0087E580 /* SessionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SessionView.xib; sourceTree = "<group>"; };
+		BE478FDC195BCBBE0087E580 /* TrackHeaderCVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackHeaderCVCell.h; sourceTree = "<group>"; };
+		BE478FDD195BCBBE0087E580 /* TrackHeaderCVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackHeaderCVCell.m; sourceTree = "<group>"; };
+		BE478FE3195BCC3B0087E580 /* ScrollingSessionTVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollingSessionTVCell.h; sourceTree = "<group>"; };
+		BE478FE4195BCC3B0087E580 /* ScrollingSessionTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollingSessionTVCell.m; sourceTree = "<group>"; };
+		BE478FE7195BCD430087E580 /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Session.h; sourceTree = "<group>"; };
+		BE478FE8195BCD430087E580 /* Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Session.m; sourceTree = "<group>"; };
+		BE478FEB195C04860087E580 /* NSArray+ArrayOfArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ArrayOfArray.h"; sourceTree = "<group>"; };
+		BE478FEC195C04860087E580 /* NSArray+ArrayOfArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ArrayOfArray.m"; sourceTree = "<group>"; };
 		BE4FAB2D19529F5C00FF72C0 /* YYScrollingTableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYScrollingTableViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4FAB3019529F5C00FF72C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BE4FAB3219529F5C00FF72C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -88,6 +114,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE478FD4195BCBBE0087E580 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE478FD5195BCBBE0087E580 /* SessionCVCell.h */,
+				BE478FD6195BCBBE0087E580 /* SessionCVCell.m */,
+				BE478FD7195BCBBE0087E580 /* SessionTVCell.h */,
+				BE478FD8195BCBBE0087E580 /* SessionTVCell.m */,
+				BE478FD9195BCBBE0087E580 /* SessionView.h */,
+				BE478FDA195BCBBE0087E580 /* SessionView.m */,
+				BE478FDB195BCBBE0087E580 /* SessionView.xib */,
+				BE478FDC195BCBBE0087E580 /* TrackHeaderCVCell.h */,
+				BE478FDD195BCBBE0087E580 /* TrackHeaderCVCell.m */,
+				BE478FE3195BCC3B0087E580 /* ScrollingSessionTVCell.h */,
+				BE478FE4195BCC3B0087E580 /* ScrollingSessionTVCell.m */,
+			);
+			name = View;
+			path = YYScrollingTableViewCell/Class/View;
+			sourceTree = SOURCE_ROOT;
+		};
+		BE478FE6195BCD360087E580 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				BE478FE7195BCD430087E580 /* Session.h */,
+				BE478FE8195BCD430087E580 /* Session.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		BE478FEA195C04860087E580 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BE478FEB195C04860087E580 /* NSArray+ArrayOfArray.h */,
+				BE478FEC195C04860087E580 /* NSArray+ArrayOfArray.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		BE4FAB2419529F5C00FF72C0 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +184,7 @@
 		BE4FAB3619529F5C00FF72C0 /* YYScrollingTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				BE478FEA195C04860087E580 /* Utilities */,
 				BE4FAB5F1952A34000FF72C0 /* Class */,
 				BE4FAB3F19529F5C00FF72C0 /* YYAppDelegate.h */,
 				BE4FAB4019529F5C00FF72C0 /* YYAppDelegate.m */,
@@ -163,8 +227,9 @@
 		BE4FAB5F1952A34000FF72C0 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				BE478FE6195BCD360087E580 /* Entity */,
+				BE478FD4195BCBBE0087E580 /* View */,
 				BE4FAB601952A34000FF72C0 /* Controller */,
-				BE4FAB6C1952A34000FF72C0 /* View */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -173,6 +238,8 @@
 			isa = PBXGroup;
 			children = (
 				BE4FAB611952A34000FF72C0 /* Base */,
+				BE478FC0195BC72A0087E580 /* ScheduleViewController.h */,
+				BE478FC1195BC72A0087E580 /* ScheduleViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -190,13 +257,6 @@
 				BE4FAB7B1952A55400FF72C0 /* YYNavigationController.m */,
 			);
 			path = Base;
-			sourceTree = "<group>";
-		};
-		BE4FAB6C1952A34000FF72C0 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +338,7 @@
 				BE4FAB3B19529F5C00FF72C0 /* InfoPlist.strings in Resources */,
 				BE4FAB731952A35800FF72C0 /* MainStoryboard-iPhone.storyboard in Resources */,
 				BE4FAB4319529F5C00FF72C0 /* Images.xcassets in Resources */,
+				BE478FE1195BCBBE0087E580 /* SessionView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,9 +360,17 @@
 				BE4FAB791952A50000FF72C0 /* YYTabBarController.m in Sources */,
 				BE4FAB7C1952A55400FF72C0 /* YYNavigationController.m in Sources */,
 				BE4FAB4119529F5C00FF72C0 /* YYAppDelegate.m in Sources */,
+				BE478FED195C04860087E580 /* NSArray+ArrayOfArray.m in Sources */,
+				BE478FE9195BCD430087E580 /* Session.m in Sources */,
 				BE4FAB3D19529F5C00FF72C0 /* main.m in Sources */,
+				BE478FE2195BCBBE0087E580 /* TrackHeaderCVCell.m in Sources */,
 				BE4FAB711952A34000FF72C0 /* iCoreGUIController.m in Sources */,
+				BE478FE5195BCC3B0087E580 /* ScrollingSessionTVCell.m in Sources */,
+				BE478FC2195BC72A0087E580 /* ScheduleViewController.m in Sources */,
 				BE4FAB761952A44000FF72C0 /* YYViewController.m in Sources */,
+				BE478FDF195BCBBE0087E580 /* SessionTVCell.m in Sources */,
+				BE478FDE195BCBBE0087E580 /* SessionCVCell.m in Sources */,
+				BE478FE0195BCBBE0087E580 /* SessionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +569,7 @@
 				BE4FAB5B19529F5C00FF72C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE4FAB5C19529F5C00FF72C0 /* Build configuration list for PBXNativeTarget "YYScrollingTableViewCellTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +578,7 @@
 				BE4FAB5E19529F5C00FF72C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
